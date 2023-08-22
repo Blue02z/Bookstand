@@ -24,7 +24,7 @@ ul{
 }
 
 li{
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 40px;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
@@ -42,6 +42,11 @@ nav ul li a{
     font-family: Poppins;
     font-size: 24px;
     
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
 }
 
 nav ul li:hover{
@@ -65,9 +70,9 @@ nav a img{
     align-items: center;
 }
 
-nav a img:hover{
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
+#icon:hover{
     opacity: 80%;
+    outline: 4px solid white;
 }
 
 .infos{
@@ -75,6 +80,14 @@ nav a img:hover{
     font-family: 'Poppins', sans-serif;
     display: block;
     float: left;
+}
+
+#icon{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
 }
 
 
@@ -229,12 +242,37 @@ nav a img:hover{
     max-width:470px;
 }
 
+.conteudo h3 a{
+    text-align: start;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 50px;
+    max-width:470px;
+}
+
+.conteudo h3 a:hover{
+
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 0.5s;
+    text-align: start;
+    color: #bdbdbd;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 50px;
+    max-width:470px;
+}
+
+
+
 .conteudo p{
     max-width: 594px;
     color: #FFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inter;
-    font-size: 23px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: normal;
 
 }
 
@@ -601,6 +639,7 @@ filters{
     border-radius: 10px;
 }
 
+
 #sla2 h2{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -647,13 +686,14 @@ filters{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-left: 80px;
     padding-right: 80px;
+    padding-left: 80px;
     padding-top: 20px;
+
 }
 
 #review{
@@ -710,4 +750,58 @@ filters{
     padding-top:10px ;
     padding-left: 5px;
     align-items: center;
+}
+
+/* página do livro */
+
+.section1b{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.section1b #sla3{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: start;
+}
+
+.section1b #sla3 h5{
+    margin-left: 10px;
+}
+
+
+.section1b #sla3 h5:nth-child(3){
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    background: rgba(212, 0, 0, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 4px 14px 4px 14px;
+}
+
+.section1b #sla3 h5:nth-child(2){
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    background: rgba(223, 241, 9, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 4px 14px 4px 14px;
+}
+
+.section1b .container img{
+    width: 313px;
+    border-radius: 10px;
+    box-shadow: black 5px 0x 1px;
 }
